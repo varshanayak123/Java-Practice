@@ -12,18 +12,18 @@ public class Calcutator2 {
         System.out.println("Enter number");
         double b = sc.nextDouble();
         double result;
-        switch (operator){
+        switch (operator) {
             case '+':
-                result = a+b;
+                result = a + b;
                 break;
-                case '-':
-                result = a-b;
+            case '-':
+                result = a - b;
                 break;
             case '*':
-                result = a*b;
+                result = a * b;
                 break;
             case '/':
-                result = a/b;
+                result = a / b;
                 break;
             default:
                 System.out.println("Invalid operation");
